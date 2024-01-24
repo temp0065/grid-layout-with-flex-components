@@ -43,6 +43,7 @@ body {
     align-items: strech;
   }
 
+  /* Lets it take up more space to push button to bottom */
   p {
     flex-grow: 1;
   }
