@@ -31,14 +31,13 @@ body {
   .emojis {
     display: grid;
     grid-template-columns: repeat(2, 18%);
-    grid-template-rows: repeat(2, 55%);
+    grid-template-rows: repeat(2, 57%);
     gap: 20px;
-    justify-content: center;
   }
 
   .emoji {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: strech;
   }
