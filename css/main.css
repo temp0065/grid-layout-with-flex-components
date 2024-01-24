@@ -26,12 +26,13 @@ body {
     font-size: 4rem;
     order: -1;
     align-self: center;
+    padding-bottom: 1rem;
   }
 
   .emojis {
     display: grid;
     grid-template-columns: repeat(2, 18%);
-    grid-template-rows: repeat(2, 57%);
+    grid-template-rows: repeat(2, 50%);
     gap: 20px;
   }
 
@@ -40,4 +41,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: strech;
+  }
+
+  p {
+    flex-grow: 1;
   }
